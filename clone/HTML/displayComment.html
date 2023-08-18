@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+</head>
+<style>
+    body{
+        background-color: rgb(184, 182, 182);
+    display: flex;
+    justify-content: center; 
+    }
+.container{
+    width: 700px;
+    height: fit-content;
+    background-color:palegoldenrod;
+justify-content: center;
+flex-direction: column;
+}
+#body{
+
+    width: inherit;
+    height: fit-content;
+background-color:black ;
+padding-bottom: 1px;
+padding-left: 1px;
+padding-right: 1px;
+color: white;
+display: flex;
+flex-direction: column;
+border-radius: 10px;
+margin-top: 2px;
+margin-bottom: 20px;
+
+
+}
+.headTitle{
+    border-bottom: 2px solid rgb(245, 223, 223);
+    margin-top:  5px;
+    margin-bottom: 2px;
+    height: fit-content;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+
+#profileimg{
+    border: 5px solidblack;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    width: 80px;
+    margin-bottom: 5px;
+
+}
+#title{
+    margin-left: 10px;
+    overflow:hidden;
+}
+.DesciptionHead{
+    width: inherit;
+    height: 229px;
+    background-color: rgb(10, 1, 1);
+
+}
+#Description{
+    padding-left: 20px;
+    font-size: 25px;
+}
+.commentsHead{
+    width:inherit;
+    height: fit-content;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    border-bottom: 2px solid papayawhip;
+    
+}
+#Titlecomments{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+
+}
+.comments{
+    background-color:white;
+    color:rgb(59, 51, 51);
+    width: 650px;
+    margin: 0px 20px 10px 20px;
+    padding-left: 10px;
+
+    
+}
+#closepage{
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+#id{
+    color: black;
+    font-size: 15px;
+    height: fit-content;
+}
+#displayDiscription{
+    height: fit-content;
+}
+</style>
+<body>
+    <div class="container" id="container">
+        <img src="../image/close.png" id="closepage"/>
+        
+         <div class="body" id="body">
+        <div class="headTitle">
+            <img id="profileimg" src="../image/person.png" alt="">
+            <h4 id ="title">Title</h4>
+        </div>
+        <div class="DesciptionHead">
+            <p id="Description">hello</p>
+            </div>
+            </div>
+            
+         <div class="commentsHead" id="commentsHead">
+                <h4 id="Titlecomment">Comments:</h4>
+                
+                <!-- <div class="comments">
+            <p id="id">id</p>
+            <p id="displaydescription">body</p>
+            </div> -->
+            </div> 
+
+    </div>
+</body>
+<script src="../JS/displayComment.js"></script>
+</html>

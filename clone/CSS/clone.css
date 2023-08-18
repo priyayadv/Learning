@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(184, 182, 182);
+    display: flex;
+    justify-content: center;
+}
+#logout{
+    width: 100px;
+font-size: 20px;
+background-color: grey;
+border-radius: 40px solid grey;
+padding: 10px;
+}
+
+.container{
+
+    width: inherit;
+    height: inherit;
+}
+
+.mainContainer{
+    width: 600px;
+    height: fit-content;
+background-color:black ;
+padding-bottom: 1px;
+padding-left: 1px;
+padding-right: 1px;
+color: white;
+display: flex;
+flex-direction: column;
+border-radius: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+.headTitle{
+    border-bottom: 2px solid rgb(245, 223, 223);
+    margin-top:  5px;
+    margin-bottom: 2px;
+    height: fit-content;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+#profileimg{
+    border: 5px solidblack;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    width: 80px;
+    margin-bottom: 5px;
+
+}
+#title{
+    margin-left: 10px;
+    overflow:hidden;
+}
+.DesciptionHead{
+    width: inherit;
+    height: 229px;
+    background-color: rgb(10, 1, 1);
+}
+#Description{
+    padding-left: 20px;
+    font-size: 25px;
+}
+.footerMain{
+    margin-top: 6px;
+    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: inherit;  
+   height: 60px;   
+   background: #6cf;
+   gap: 100px;
+   background-color:rgb(235, 196, 196);
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+
+}  
+
+#countslike{
+    font-size: 15px;
+    
+
+}
+#countscomment{
+    font-size: 20px; 
+}
